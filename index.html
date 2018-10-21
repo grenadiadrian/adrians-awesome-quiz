@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz 2: The Electric Boogaloo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="app"> <!--The entire app encompassed-->
+        <div class="container"> <!--The contents of the app stored in here-->
+            <div class="jabquiz"> <!--The app itself -->
+                <header>Adrian's Awesome Quiz</header>
+                <div class="jabquiz__question-box"> <!--Question Text-->
+                    <h1 class="jabquiz__question"></h1> <!--To be added via Javascript-->
+                    <p class="jabquiz__tracker"></p> <!--To be added via Javascript-->
+                    <p class="jabquiz__tracker2"></p>
+                    <div class="progress">
+                        <div class="progress__inner"></div> <!--Progress Bar-->
+                    </div>
+                    <p class="jabquiz__tagline">Select your answer...</p>
+                </div>
+                <div class="jabquiz__choices-box"> <!--List of choices-->
+                    <ul class="jabquiz__choices">
+                        <!--Dynamically set with Javascript-->
+                    </ul>
+                </div>
+                <div class="jabquiz__footer">
+                    <button class="button button--bordered next">Next</button>
+                    <button class="button button--bordered restart">Restart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js" type="module"></script>
+</body>
+
+</html>
